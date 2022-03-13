@@ -1,0 +1,75 @@
+:root {
+  --color-rosaFuerte: #F29BCB;
+  --color-rosaClaro: #F2B3D6;
+  --color-verde: #AABFB2;
+  --color-blancoColorCake: #F2F2F2;
+}
+
+
+
+.nav-row {
+  background-color: var(--color-blancoColorCake);
+}
+
+.imglogonav {
+  width: 12rem;
+  height: 5rem;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: var(--color-rosaClaro);
+  font-size: 1.2rem;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+.link2 {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: var(--color-verde);
+  font-size: 1.2rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  border: none;
+}
+.link2:hover {
+  background-color: var(--color-rosaFuerte);
+  color: black;
+}
+
+.link:hover {
+  background-color: var(--color-rosaFuerte);
+  color: white;
+}
+
+.cart{
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-img{
+  width: 45px;
+  height: 45px;
+}
+.cart span{
+  position: absolute;
+  top: -1rem;
+  right: -1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid var(--color-rosaFuerte);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blancoColorCake);
+  padding: 0rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: var(--color-verde);
+}
+
+

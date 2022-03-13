@@ -1,0 +1,32 @@
+:root {
+    --color-rosaFuerte: #F29BCB;
+    --color-rosaClaro: #F2B3D6;
+    --color-verde: #AABFB2;
+    --color-blancoColorCake: #F2F2F2;
+}
+.btnDropdown{
+    background-color: #F2B3D6 !important;
+    border-color: #F29BCB !important;
+    
+    
+}
+.btnDropdown:hover {
+    background-color: white !important;
+    color: #F29BCB !important;
+
+}
+.productos{
+    color: var(--color-blancoColorCake);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.productos:hover{
+    color: var(--color-rosaFuerte);
+}
+.category{
+    text-decoration: none;
+    color: var(--color-rosaFuerte);
+}
+.category:hover{
+    color: var(--color-verde);
+}

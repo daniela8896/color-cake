@@ -1,0 +1,18 @@
+:root {
+    --color-rosaFuerte: #F29BCB;
+    --color-rosaClaro: #F2B3D6;
+    --color-verde: #AABFB2;
+    --color-blancoColorCake: #F2F2F2;
+}
+.h1-decoration{
+    color: var(--color-verde);
+}
+
+.cardShow{
+    transition: all 0.5s ease;
+
+}
+.cardShow:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

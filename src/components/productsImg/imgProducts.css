@@ -1,0 +1,17 @@
+:root {
+    --color-rosaFuerte: #F29BCB;
+    --color-rosaClaro: #F2B3D6;
+    --color-verde: #AABFB2;
+    --color-blancoColorCake: #F2F2F2;
+}
+
+.imgCategory {
+    width: 50rem;
+    height: 35rem;
+    border-radius: 2rem;
+}
+.text{
+    font-size: 5rem;
+    text-align: center;
+    color: var(--color-rosaFuerte);
+}

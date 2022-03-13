@@ -1,0 +1,12 @@
+:root {
+    --color-rosaFuerte: #F29BCB;
+    --color-rosaClaro: #F2B3D6;
+    --color-verde: #AABFB2;
+    --color-blancoColorCake: #F2F2F2;
+}
+.hr{
+    color: var(--color-rosaFuerte);
+}
+.h1-productos{
+    color: var(--color-rosaFuerte);
+}

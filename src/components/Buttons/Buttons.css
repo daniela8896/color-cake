@@ -1,0 +1,60 @@
+:root {
+    --color-rosaFuerte: #F29BCB;
+    --color-rosaClaro: #F2B3D6;
+    --color-verde: #AABFB2;
+    --color-blancoColorCake: #F2F2F2;
+}
+
+/***********button search***********/
+.formSearch{
+    
+    
+}
+
+.containerSearch{
+    background-color: var(--color-verde);
+    display: inline-block;
+    border-radius: 10px;
+   
+}
+.containerDosSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputSearch{
+    border: none;
+    background-color: var(--color-verde);
+     
+}
+.inputSearch:focus{
+    outline: none;
+}
+.btnSearch{
+    background-color: var(--color-rosaClaro);
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.btnSearch:hover{
+    background-color: var(--color-blancoColorCake);
+}
+.imgSearch{
+    width: 20px;
+}
+
+.seeMore{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: var(--color-rosaFuerte);
+    font-size: 1.7rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.seeMore:hover {
+    background-color: var(--color-verde);
+    color: var(--color-blancoColorCake);
+}

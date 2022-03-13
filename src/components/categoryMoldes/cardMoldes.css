@@ -1,0 +1,10 @@
+:root {
+    --color-rosaFuerte: #F29BCB;
+    --color-rosaClaro: #F2B3D6;
+    --color-verde: #AABFB2;
+    --color-blancoColorCake: #F2F2F2;
+}
+
+.h1-moldes {
+    color: var(--color-verde);
+}

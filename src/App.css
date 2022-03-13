@@ -1,38 +1,257 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-rosaFuerte: #f29bcb;
+  --color-rosaClaro: #f2b3d6;
+  --color-verde: #aabfb2;
+  --color-blancoColorCake: #f2f2f2;
+}
+
+h1,
+h2 {
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/*******carrito*********/
+
+.btnAñadir {
+  border: none;
+  background-color: var(--color-rosaFuerte);
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+.btnAñadir:hover {
+  background-color: var(--color-verde);
+}
+.btnAñadirInput {
+  border: none;
+  background-color: var(--color-rosaFuerte);
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.titleColor {
+  color: #f29bcb;
+}
+.circle {
+  background-color: var(--color-verde) !important;
+}
+
+.titleCP {
+  color: var(--color-verde);
+}
+/***footer****/
+.cl {
+  color: var(--color-rosaFuerte) !important;
+}
+.cl:hover {
+  color: var(--color-verde) !important;
+}
+.cl2 {
+  color: var(--color-verde) !important;
+}
+.cl2:hover {
+  color: var(--color-rosaFuerte) !important;
+}
+
+/* Projects */
+
+.projects__grid {
+  display: grid;
+  height: 550px;
+  grid-template-areas:
+    "img1 img1 img2 img3"
+    "img1 img1 img4 img5";
+  gap: 10px;
+}
+
+.projects__item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.projects__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.projects__item:nth-of-type(1) {
+  grid-area: img1;
+}
+
+.projects__item:nth-of-type(2) {
+  grid-area: img2;
+}
+
+.projects__item:nth-of-type(3) {
+  grid-area: img3;
+}
+
+.projects__item:nth-of-type(4) {
+  grid-area: img4;
+}
+
+.projects__item:nth-of-type(5) {
+  grid-area: img5;
+}
+
+.projects__hover {
+  position: absolute;
+  background: #f29bcb5e;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transform: translateX(100%);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.projects__item:hover .projects__hover {
+  transform: translateX(0%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projects__icon {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+/****productsMas*****/
+
+.new {
+  background-color: #f29bcb;
+}
+
+/***cart*****/
+
+.cartbg {
+  background-color: var(--color-blancoColorCake);
+}
+
+/********nav******/
+
+.nav_principal {
+  background-color: var(--color-blancoColorCake);
+  height: 80px;
+}
+.nav__container {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo img {
+  width: 100px;
+}
+.nav__lavel, .nav__input{
+  display: none;
+}
+.nav__menu{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3em;
+}
+.nav__item{
+  text-decoration: none;
+  color: var(--color-rosaFuerte);
+  font-size: 1.5em;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0 100%);
+  
+}
+.nav__item::after{
+  content: "";
+  display: block;
+  background-color: var(--color-rosaClaro);
+  width: 90%;
+  margin-top: 3px;
+  height: 3px;
+  clip-path: var(--clippy);
+  transition: clip-path .3s ;
+}
+.nav__item:hover{
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  color: var(--color-rosaClaro);
+}
+.item__total{
+  background-color: var(--color-verde);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 800px) {
+  /* My projects */
+
+  .projects__grid {
+    grid-template-areas:
+      "img1 img1 img2 img2"
+      "img1 img1 img3 img3"
+      "img4 img4 img5 img5";
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav__lavel{
+    display: block;
+    cursor: pointer;
   }
+  .nav__menu{
+    position: fixed;
+    z-index: 20;
+    background-color: var(--color-blancoColorCake);
+    top: 80px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+  }
+  .nav__input:checked + .nav__menu{
+    clip-path: circle(100% at center);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* My projects */
+
+  .projects__grid {
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5";
+    height: auto;
+    grid-template-rows: repeat(5, 250px);
+    grid-auto-rows: 250px;
+    gap: 10px;
+  }
+
+
+
+
 }
