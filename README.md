@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Proyecto carrito de compras para un cliente real
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Color cake</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p><em> Educamás -> <a href="https://educamas.com.co/">Programate</a> Cohorte IV REEDOM DEVELOPER. 💻 </br>
+</em></p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+¡Un cliente real! para contribuir con el fortalecimiento y la mejora económica de nuestro entorno cercano post-Covid19
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>📌 Contexto del proyecto</h2>
+<p>🏆 Trabajado por Daniela puerta castrillon</p>
 
-### `npm test`
+<img src="./src/img/logoClaro.svg" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Contexto del proyecto</h2>
 
-### `npm run build`
+Este será tu primer reto profesional enfocado en un cliente real, tendrás que sacar tus habilidades de comunicación asertiva y tus habilidades de manejo de cliente.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Simultáneo a la práctica de estas habilidades blandas y ponerlas en un contexto real, evaluaremos el código para cumplir con las primeras tres competencias dedicadas al frontend de nuestro bootcamp en su nivel 3, también tendremos en cuenta la usabilidad e interactividad del usuario final.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Recuerda las recomendaciones que te hemos dado hasta este momento para recibir la competencia nivel 3.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⚙️ Requerimientos técnicos ⚙️
 
-### `npm run eject`
+🍩 Realizar un planning y product backlog respetando las fechas de las entregas
+🍩 Se requiere estudio previo del negocio del cliente
+🍩 Se requiere Mockup
+🍩 Se requiere Prototipo
+🍩 El desarrollo debe ser con React
+🍩 El desarrollo debe usar CSS para dar estilos, puedes hacer uso de alguna librería
+🍩 El desarrollo debe contar con un carrito de compra (no es pasarela de pago)
+🍩 El desarrollo debe tener la funcionalidad de al finalizar el pedido, el establecimiento debe recibirlo a través de WhatsApp (debe incluir los productos, la cantidad de productos, el total de cada producto dependiendo de las unidades pedidas y el total de todo el pedido, si ves algún dato más relevante puedes agregarlo)
+🍩 El desarrollo debe estar en inglés al 100% menos para los strings que ve el usuario final pues estos deben estar en Español.
+🍩 El desarrollo debe contar con filtros de categorías para los diversos productos
+🍩 El desarrollo debe contar con documentación técnica (debe ser bien documentado para futuros mantenimientos o estabilidad)
+🍩 El desarrollo debe respetar la carta gráfica del cliente o la que ustedes le propongan al cliente (en caso de no tenerla deben diseñar la carta gráfica con logo, paletas de colores)
+​
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🍩 El desarrollo debe ser RESPONSIVE con uso de la estrategia Mobile First
+🍩 El desarrollo debe contar con las siguientes vistas:
+Bienvenida a la tienda y descripción del negocio
+Productos (acá se debe manejar el filtro de categorías)
+Carrito de compras
+Resúmen de las compras con botón para hacer el domicilio vía WhatsApp
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2>🛠 Tech Stack</h2>
 
-## Learn More
+- 🌐 &nbsp; HTML5 | CSS3 | Bootstrap | reactjs |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="./src/img/productos.png">
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img src="./src/img/responsive.png">
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src="./src/img/portada (1).png">
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
