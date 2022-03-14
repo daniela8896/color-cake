@@ -12,6 +12,9 @@
 }
 body{
   height: 100vh;
+  
+   max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 h1,

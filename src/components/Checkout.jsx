@@ -59,7 +59,7 @@ const Checkout = () => {
         </div>
       </div>
       <div className='d-flex justify-content-center'>
-        <a onClick={() => setMessage(handleMessage)} href={`https://api.whatsapp.com/send?phone=${'+573504598741'}&text=${message}`}>
+        <a onClick={() => setMessage(handleMessage)} href={`https://api.whatsapp.com/send?phone=${'+573107228258'}&text=${message}`}>
           <button className='btnAñadir'>Finalizar compra</button>
         </a>
      </div>

@@ -12,13 +12,13 @@ const Footer = () => {
     <footer className='bgFooter '>
       <div className='container '>
         <div className='row'>
-          <div className="col-3">
+          <div className="col ">
             <NavLink to="/" className='col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none'>
               <img src={logo} alt="carrito" className="" width='200px' height='200' />
             </NavLink>
           </div>
           <div className="col-9 ">
-            <ul className='d-flex justify-content-between align-items-center mt-5'>
+            <ul className='d-flex justify-content-between align-items-center mt-5 flex-wrap'>
               <li className='nav-item cl'><NavLink to='/' className=' px-2 cl fs-3'>Inicio</NavLink></li>
               <li className='nav-item cl'><NavLink to='/productos' className=' px-2 fs-4 cl'>Productos</NavLink></li>
               <li className='nav-item cl'><NavLink to='/contacto' className=' px-2 fs-4 cl'>Contacto</NavLink></li>
