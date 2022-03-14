@@ -33,7 +33,7 @@ const Home = () => {
         <div className="row ">
           <div className='col-lg-12 justify-content-md-center col-md-4 d-flex justify-content-evenly align-items-center flex-wrap gap-3'>
             <div className='  '>
-              <NavLink to='/decoraciones' className='link2'>Decoraciones</NavLink>
+              <NavLink to='/decoracion' className='link2'>Decoraciones</NavLink>
             </div>
             <div className='  ' >
               <NavLink to='/moldes' className='link2' >Moldes y cajas</NavLink>
@@ -96,7 +96,7 @@ const Home = () => {
             <img src={horno} alt="Colorcake" className='imgCategory' width='50px' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <p className='text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora ea dicta distinctio qui magni expedita pariatur quidem esse, ipsam beatae dolores ab ex, eius voluptates consequatur laboriosam quis minima corrupti.</p>
+            <p className='text'>Pregunta por nuestras impresiones comestibles, 100% calidad.</p>
           </div>
 
         </div>
