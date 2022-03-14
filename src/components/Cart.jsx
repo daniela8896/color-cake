@@ -2,10 +2,12 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
 import { NavLink } from 'react-router-dom'
-import { delItem } from '../redux/actions/index'
+import { addItem, delItem } from '../redux/actions/index'
+
 
 
 const Cart = () => {
+    
     const state = useSelector((state) => state.addItem)
     const dispatch = useDispatch()
 
@@ -13,7 +15,15 @@ const Cart = () => {
         dispatch(delItem(item))
     }
 
+   
+
+    console.log(state)
+
     const cartItems = (cartItem) => {
+       
+
+
+        console.log(cartItem)
         return (
             <div className="px-4 my-5  rounded-3 cartbg" key={cartItem.id}>
                 <div className="container py-4">

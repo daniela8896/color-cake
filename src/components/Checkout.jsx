@@ -1,10 +1,19 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import Form from './form/Form';
+import { useState } from 'react'
+
+
+
+
 
 const Checkout = () => {
- 
+  const [message, setMessage] = useState("")
 
+  const handleMessage = () => {
+    let mensaje = `${state.map(item => { return  ( 'Hola, quiero pedir:  ' + item.title) })} el total de la compra es: $ ${total}`
+    mensaje = encodeURI(mensaje)
+    return mensaje
+  }
 
   const state = useSelector((state) => state.addItem)
 
@@ -26,8 +35,8 @@ const Checkout = () => {
 
   return (
     <>
-      
-     
+
+
 
       <div className="container my-5">
         <div className="row g-5 d-flex align-items-center justify-content-center card mt-5">
@@ -44,14 +53,21 @@ const Checkout = () => {
                 <strong>${total}</strong>
               </li>
             </ul>
-          
+
 
           </div>
         </div>
       </div>
+      <div className='d-flex justify-content-center'>
+        <a onClick={() => setMessage(handleMessage)} href={`https://api.whatsapp.com/send?phone=${'+573504598741'}&text=${message}`}>
+          <button className='btnAñadir'>Finalizar compra</button>
+        </a>
+     </div>
+     
 
-      <Form />
+      
 
+     
     </>
   )
 }
