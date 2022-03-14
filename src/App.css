@@ -10,6 +10,9 @@
   --color-verde: #aabfb2;
   --color-blancoColorCake: #f2f2f2;
 }
+body{
+  height: 100vh;
+}
 
 h1,
 h2 {
@@ -53,6 +56,8 @@ p {
 /***footer****/
 .cl {
   color: black !important;
+  text-decoration: none;
+  list-style: none;
 }
 .cl:hover {
   color: var(--color-verde) !important;
@@ -62,6 +67,11 @@ p {
 }
 .cl2:hover {
   color: var(--color-rosaFuerte) !important;
+}
+.bgFooter{
+  background-color: var(--color-blancoColorCake);
+  width: 100%;
+  bottom: 0;
 }
 
 /* Projects */
