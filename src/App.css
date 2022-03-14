@@ -52,7 +52,7 @@ p {
 }
 /***footer****/
 .cl {
-  color: var(--color-rosaFuerte) !important;
+  color: black !important;
 }
 .cl:hover {
   color: var(--color-verde) !important;
