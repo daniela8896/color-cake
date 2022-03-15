@@ -19,7 +19,7 @@ const Home = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col text-center">
-            <h1 className='h1 cl2' >Bienvenidos</h1>
+            <h1 className='h1 cl2' >Bienvenidos a color cake</h1>
             <hr className='hr' />
           </div>
         </div>
