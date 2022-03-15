@@ -10,7 +10,8 @@ const Checkout = () => {
   const [message, setMessage] = useState("")
 
   const handleMessage = () => {
-    let mensaje = `${state.map(item => { return  ( 'Hola, quiero pedir:  ' + item.title) })} el total de la compra es: $ ${total}`
+    let mensaje = `Hola me gustaria pedir: ${state.map(item => { return (" " + " (" + item.title + ")" + " " + "$" + item.price + " ") })}.\n
+     el total de la compra sin domicilio es: $ ${total}`
     mensaje = encodeURI(mensaje)
     return mensaje
   }
