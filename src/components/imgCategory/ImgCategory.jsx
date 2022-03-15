@@ -11,7 +11,7 @@ const ImgCategory = () => {
           <img src={tizaColor} alt="Colorcake" className='imgCategory' />
         </div>
         <div className='col-sm-12 col-md-6'>
-          <p className='text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora ea dicta distinctio qui magni expedita pariatur quidem esse, ipsam beatae dolores ab ex, eius voluptates consequatur laboriosam quis minima corrupti.</p>
+            <p className='text'> En color cake encuentras todas las herramientas, accesorios y utensilios importados y nacionales para repostería, pastelería y mucho más…</p>
         </div>
 
         </div>

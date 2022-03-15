@@ -58,3 +58,16 @@
     background-color: var(--color-verde);
     color: var(--color-blancoColorCake);
 }
+.btnHomeSeeMore{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--color-rosaFuerte);
+    background-color: var(--color-blancoColorCake);
+    font-size: 1.7rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.btnHomeSeeMore:hover {
+    background-color: var(--color-verde);
+    color: var(--color-blancoColorCake);
+}

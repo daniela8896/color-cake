@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
 
-     
+
 
 
       <div className="container py-5">
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
 
-      
+
 
       <Carousel />
 
@@ -56,7 +56,7 @@ const Home = () => {
 
       <ProductsMas />
 
-     
+
 
       <div className='container'>
 
@@ -68,7 +68,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+
         <div className='container'>
           <div className="row new">
             <div className='text-center mb-5'></div>
@@ -85,7 +85,10 @@ const Home = () => {
                 </div>
               )
             })}
+            <div className='d-flex align-items-center justify-content-center mb-5'>
 
+              <NavLink to="/decoracion" className='btnHomeSeeMore'>Ver mas..</NavLink>
+            </div>
           </div>
         </div>
 
@@ -98,7 +101,8 @@ const Home = () => {
             <img src={horno} alt="Colorcake" className='imgCategory' width='50px' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <p className='text'>Pregunta por nuestras impresiones comestibles, 100% calidad.</p>
+            <h2 className='text-center cl2'>Pregunta por nuestras impresiones comestibles, 100% calidad.
+              gran variedad de empaques y utensilios de tus marcas favoritas.</h2>
           </div>
 
         </div>
