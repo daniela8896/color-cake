@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/color-cake/static/css/main.6d48fa87.css",
-    "main.js": "/color-cake/static/js/main.d56fc0cc.js",
+    "main.js": "/color-cake/static/js/main.3423ac15.js",
     "static/js/787.9d8c9ae0.chunk.js": "/color-cake/static/js/787.9d8c9ae0.chunk.js",
     "static/media/niñacocinando.jpg": "/color-cake/static/media/niñacocinando.3ddf499ab6bdd7337ef7.jpg",
     "static/media/logoClaro.svg": "/color-cake/static/media/logoClaro.0bdf67a24055d06bd067fbd24fd640b8.svg",
@@ -44,11 +44,11 @@
     "index.html": "/color-cake/index.html",
     "static/media/close.svg": "/color-cake/static/media/close.18e580b4f651a8bd53199d488bfd7845.svg",
     "main.6d48fa87.css.map": "/color-cake/static/css/main.6d48fa87.css.map",
-    "main.d56fc0cc.js.map": "/color-cake/static/js/main.d56fc0cc.js.map",
+    "main.3423ac15.js.map": "/color-cake/static/js/main.3423ac15.js.map",
     "787.9d8c9ae0.chunk.js.map": "/color-cake/static/js/787.9d8c9ae0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d48fa87.css",
-    "static/js/main.d56fc0cc.js"
+    "static/js/main.3423ac15.js"
   ]
 }
