@@ -41,7 +41,11 @@ const Cart = () => {
 
                     </div>
                 </div>
+
+                
             </div>
+
+            
         )
     }
 
@@ -67,6 +71,7 @@ const Cart = () => {
             </div>
         )
     }
+   
 
   return (
       <div>
@@ -74,6 +79,23 @@ const Cart = () => {
           {state.length !== 0 && state.map(cartItems)}
           {state.length !== 0 && button()}
           
+
+          <div className='container mt-5'>
+              <div className="row mb-5">
+                  <h3 className='text-center mb-3'>Seguir comprando</h3>
+                  <div className='col-lg-12 justify-content-md-center col-md-4 d-flex justify-content-evenly align-items-center flex-wrap gap-3'>
+                      <div className='  '>
+                          <NavLink to='/decoracion' className='link2'>Decoraciones</NavLink>
+                      </div>
+                      <div className='  ' >
+                          <NavLink to='/moldes' className='link2' >Moldes y cajas</NavLink>
+                      </div>
+                      <div className=''>
+                          <NavLink to='/masas' className='link2' >Masas y cubiertas</NavLink>
+                      </div>
+                  </div>
+              </div>
+          </div>
       
     </div>
   )

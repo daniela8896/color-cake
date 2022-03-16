@@ -10,7 +10,7 @@ const Checkout = () => {
   const [message, setMessage] = useState("")
 
   const handleMessage = () => {
-    let mensaje = `Hola me gustaria pedir: ${state.map(item => { return (" " + " (" + item.title + ")" + " " + "$" + item.price + " ") })}.\n
+    let mensaje = `Hola me gustaria comprar los siguientes productos: ${state.map(item => { return (" " + " (" + item.title + ")" + " " + "$" + item.price + " ") })}.\n
      el total de la compra sin domicilio es: $ ${total}`
     mensaje = encodeURI(mensaje)
     return mensaje
@@ -59,8 +59,8 @@ const Checkout = () => {
           </div>
         </div>
       </div>
-      <div className='d-flex justify-content-center'>
-        <a onClick={() => setMessage(handleMessage)} href={`https://api.whatsapp.com/send?phone=${'+573107228258'}&text=${message}`}>
+      <div className='d-flex justify-content-center mb-5'>
+        <a onClick={() => setMessage(handleMessage)} href={`https://api.whatsapp.com/send?phone=${'+573012862612'}&text=${message}`}>
           <button className='btnAñadir'>Finalizar compra</button>
         </a>
      </div>
