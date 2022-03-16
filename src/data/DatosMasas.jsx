@@ -30,7 +30,7 @@ const DatosMasas = [
     
     {
         id: 2,
-        title: 'Chocolate negro ',
+        title: 'Chocolate negro',
         presentation: '1000 gr',
         brand: 'Santillana',
         description: 'Sucedáneo de chocolate, Apto para horneo, elabore finas figuras de chocolate, úselo como cobertura, ganache, relleno entre otras preparaciones en panadería, pastelería y repostería.',
@@ -151,7 +151,7 @@ const DatosMasas = [
     
     {
         id: 14,
-        title: 'Esencia de vainilla ',
+        title: 'Esencia de vainilla',
         presentation: '60 ml',
         brand: 'Fleischmann',
         description: 'Proporciona a los productos horneados un agradable sabor y aroma. Son fáciles de usar dado que deben incorporarse directamente a las masas y batidos.',

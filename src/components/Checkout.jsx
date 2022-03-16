@@ -1,20 +1,13 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { useState } from 'react'
+
 
 
 
 
 
 const Checkout = () => {
-  const [message, setMessage] = useState("")
-
-  const handleMessage = () => {
-    let mensaje = `Hola me gustaria comprar los siguientes productos: ${state.map(item => { return (" " + " (" + item.title + ")" + " " + "$" + item.price + " ") })}.\n
-     el total de la compra sin domicilio es: $ ${total}`
-    mensaje = encodeURI(mensaje)
-    return mensaje
-  }
+  
 
   const state = useSelector((state) => state.addItem)
 
@@ -60,13 +53,14 @@ const Checkout = () => {
         </div>
       </div>
       <div className='d-flex justify-content-center mb-5'>
-        <a onClick={() => setMessage(handleMessage)} href={`https://api.whatsapp.com/send?phone=${'+573012862612'}&text=${message}`}>
+        <a target="_blank" rel="noreferrer" href={`https://wa.me/+573025870243?text=Hola, me gustaria comprar los siguientes productos:${state.map(item => { return ("%0A%0A- *" + item.title + "* $" + item.price + " ") })}
+     %0A%0AEl total de la compra sin domicilio es: $ *${total}*`}>
           <button className='btnAñadir'>Finalizar compra</button>
         </a>
      </div>
      
 
-      
+     
 
      
     </>

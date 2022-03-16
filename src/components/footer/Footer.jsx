@@ -40,8 +40,7 @@ const Footer = () => {
               
             </div>
             <div className='col-md-4 col-sm-12 d-flex align-items-center mb-5 justify-content-center'>
-              <a href='https://api.whatsapp.com/send?phone=573012862612&text=Hola,%20quiero%20%20mas%20informaci%C3%B3n%20de%20los%20productos?'> <img src={whatsapp} alt="foto" width='50px' /> </a>
-             
+              <a href='https://api.whatsapp.com/send?phone=573012862612&text=Hola,%20quiero%20%20mas%20informaci%C3%B3n%20de%20los%20productos'> <img src={whatsapp} alt="foto" width='50px' /> </a>
             </div>
           </div>
         </div>
