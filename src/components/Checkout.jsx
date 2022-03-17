@@ -53,7 +53,7 @@ const Checkout = () => {
         </div>
       </div>
       <div className='d-flex justify-content-center mb-5'>
-        <a target="_blank" rel="noreferrer" href={`https://wa.me/+573025870243?text=Hola, me gustaria comprar los siguientes productos:${state.map(item => { return ("%0A%0A- *" + item.title + "* $" + item.price + " ") })}
+        <a target="_blank" rel="noreferrer" href={`https://wa.me/+573012862612?text=Hola, me gustaria comprar los siguientes productos:${state.map(item => { return ("%0A%0A- *" + item.title + "* $" + item.price + " ") })}
      %0A%0AEl total de la compra sin domicilio es: $ *${total}*`}>
           <button className='btnAñadir'>Finalizar compra</button>
         </a>
